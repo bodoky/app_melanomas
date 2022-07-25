@@ -1,0 +1,72 @@
+{
+    "clientId": "prueba1",
+    "name": "${prueba1}",
+    "rootUrl": "http://localhost:8081/*",
+    "adminUrl": "http://localhost:8081",
+    "baseUrl": "http://localhost:8081/*",
+    "surrogateAuthRequired": false,
+    "enabled": true,
+    "alwaysDisplayInConsole": false,
+    "clientAuthenticatorType": "client-secret",
+    "redirectUris": [
+        "http://localhost:8081/*"
+    ],
+    "webOrigins": [],
+    "notBefore": 0,
+    "bearerOnly": false,
+    "consentRequired": false,
+    "standardFlowEnabled": true,
+    "implicitFlowEnabled": false,
+    "directAccessGrantsEnabled": true,
+    "serviceAccountsEnabled": false,
+    "publicClient": true,
+    "frontchannelLogout": false,
+    "protocol": "openid-connect",
+    "attributes": {
+        "saml.multivalued.roles": "false",
+        "saml.force.post.binding": "false",
+        "oauth2.device.authorization.grant.enabled": "false",
+        "backchannel.logout.revoke.offline.tokens": "false",
+        "saml.server.signature.keyinfo.ext": "false",
+        "use.refresh.tokens": "true",
+        "jwt.credential.certificate": "MIICnTCCAYUCBgGB+GzpezANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdwcnVlYmExMB4XDTIyMDcxMzE2MzYzNloXDTMyMDcxMzE2MzgxNlowEjEQMA4GA1UEAwwHcHJ1ZWJhMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJOx4K/tZmIQoov+uqaO4yoKN05L0VXxGitdR9txJ1+q1FKCU8BfT1j0XbCMT3X6p/xj+C9DbKYR8RoYHKLee4zEowTqXodHnU4bnSjYprLY976fDyTEYcxdEd5j2ZY/z5baT+mVjBGp/IiEEgcOF6FC9/yOS3ysEXcH+RjYt1yJ3gV8T6hatN/OuU5rsCp8fWLB0lMpUqV5FIy3VgMZfMY+smqkgzDP0wnv+1N4RA2vuu7rMdJiT8wRty/CtQ8te2XPvlTRDPvK5WdLYot0p+z1IhE0grONnGXyHwDi6wV4mNxj2kAL/cxxGfdf+wSgEa8byz25DLSPnQiYtJEKv+0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEARWbMET2N3GN5Zst7kJOK6L7cmTrLglfub8TP1J3iwaG+d3dxcFYFVB7zcTDmWMDNeHYprkJhpmUUByP4F/gbRMKLgwE6N44BdHYiHDMJYTsNhRPaxJICxspAht9/EHZouf08WFzpMh0GifAayVQywo6h86J4pzFurlwYR/zzb1rmjKNUiepM0z/GX76L8OgGu5Q6K8+HfMcb5LdSj+xp1uctLCvG/PRBhntM/g0ckZUF/ttfSnBEsX/Ks7bK/aHkauIQ1wYjFwiw6dd5O0c0nLgoxP8XAo4UqPOnSQYI8fuNqf8WIQCpXrlSva+EFWNNqEoK/WHxC84Dmmqbd86K7g==",
+        "oidc.ciba.grant.enabled": "false",
+        "backchannel.logout.session.required": "true",
+        "client_credentials.use_refresh_token": "false",
+        "saml.client.signature": "false",
+        "require.pushed.authorization.requests": "false",
+        "saml.assertion.signature": "false",
+        "id.token.as.detached.signature": "false",
+        "saml.encrypt": "false",
+        "saml.server.signature": "false",
+        "exclude.session.state.from.auth.response": "false",
+        "saml.artifact.binding": "false",
+        "saml_force_name_id_format": "false",
+        "tls.client.certificate.bound.access.tokens": "false",
+        "acr.loa.map": "{}",
+        "saml.authnstatement": "false",
+        "display.on.consent.screen": "false",
+        "token.response.type.bearer.lower-case": "false",
+        "saml.onetimeuse.condition": "false"
+    },
+    "authenticationFlowBindingOverrides": {},
+    "fullScopeAllowed": true,
+    "nodeReRegistrationTimeout": -1,
+    "defaultClientScopes": [
+        "web-origins",
+        "roles",
+        "profile",
+        "email"
+    ],
+    "optionalClientScopes": [
+        "address",
+        "phone",
+        "offline_access",
+        "microprofile-jwt"
+    ],
+    "access": {
+        "view": true,
+        "configure": true,
+        "manage": true
+    }
+}
